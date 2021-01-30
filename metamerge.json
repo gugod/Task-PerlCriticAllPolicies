@@ -1,0 +1,14 @@
+{
+    "name": "Task-PerlCriticAllPolicies",
+    "x_static_install": true,
+    "resources": {
+        "bugtracker": {
+            "web": "https://github.com/gugod/Task-PerlCriticAllPolicies/issues"
+        },
+        "repository": {
+            "web": "https://github.com/gugod/Task-PerlCriticAllPolicies",
+            "url": "https://github.com/gugod/Task-PerlCriticAllPolicies.git",
+            "type": "git"
+        }
+    }
+}

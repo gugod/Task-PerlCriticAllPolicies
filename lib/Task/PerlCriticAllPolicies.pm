@@ -7,7 +7,7 @@ __END__
 
 =head1 NAME
 
-Task::PerlCriticAllPolicies
+Task::PerlCriticAllPolicies - A Task for installing all Perl::Critic policies at once.
 
 =head1 DESCRIPTION
 
