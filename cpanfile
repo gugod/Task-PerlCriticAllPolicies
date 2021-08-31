@@ -8,7 +8,6 @@ requires "Perl::Critic::Nits";
 requires "Perl::Critic::Pulp";
 requires "Perl::Critic::Tics";
 requires "Perl::Critic::Bangs";
-requires "Perl::Critic::Lokku";
 requires "Perl::Critic::Moose";
 requires "Perl::Critic::Swift";
 requires "Perl::Critic::RENEEB";
