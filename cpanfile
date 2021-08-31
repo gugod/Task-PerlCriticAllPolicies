@@ -63,3 +63,4 @@ requires "Perl::Critic::Policy::ControlStructures::ProhibitReturnInDoBlock";
 requires "Perl::Critic::Policy::RegularExpressions::ProhibitEmptyAlternatives";
 requires "Perl::Critic::Policy::ValuesAndExpressions::ProhibitEmptyPostfixLoop";
 requires "Perl::Critic::Policy::ValuesAndExpressions::ProhibitSingleArgArraySlice";
+requires "Perl::Critic::Policy::InputOutput::ProhibitHighPrecedentLogicalOperatorErrorHandling";
