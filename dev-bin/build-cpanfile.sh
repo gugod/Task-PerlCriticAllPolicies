@@ -15,7 +15,7 @@ function print-cpanfile {
     fi
 
     # Take the "shortest" module name from a dist as the "main module" of that dist
-    modules=$(gzcat 02packages.details.txt.gz | egrep ^Perl::Critic | perl -E 'my %mod; while(<>) { my ($m, undef, $dist) = split(/\s+/); if (! $mod{$dist} or length($m) < length($mod{$dist})) { $mod{$dist} = $m } } say for sort { length($a) <=> length($b) || $a cmp $b } values %mod')
+    modules=$(zcat 02packages.details.txt.gz | egrep ^Perl::Critic | perl -E 'my %mod; while(<>) { my ($m, undef, $dist) = split(/\s+/); if (! $mod{$dist} or length($m) < length($mod{$dist})) { $mod{$dist} = $m } } say for sort { length($a) <=> length($b) || $a cmp $b } values %mod')
 
     for module in $modules
     do
