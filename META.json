@@ -58,6 +58,7 @@
             "Perl::Critic::Policy::HTTPCookies" : "0",
             "Perl::Critic::Policy::InputOutput::ProhibitHighPrecedentLogicalOperatorErrorHandling" : "0",
             "Perl::Critic::Policy::Modules::ProhibitUseLib" : "0",
+            "Perl::Critic::Policy::Modules::RequireExplicitPackage::ObjectPad" : "0",
             "Perl::Critic::Policy::Moo::ProhibitMakeImmutable" : "0",
             "Perl::Critic::Policy::Perlsecret" : "0",
             "Perl::Critic::Policy::PreferredModules" : "0",
@@ -67,6 +68,7 @@
             "Perl::Critic::Policy::References::ProhibitComplexDoubleSigils" : "0",
             "Perl::Critic::Policy::RegularExpressions::ProhibitEmptyAlternatives" : "0",
             "Perl::Critic::Policy::RegularExpressions::RequireDefault" : "0",
+            "Perl::Critic::Policy::Subroutines::ProhibitAmbiguousFunctionCalls" : "0",
             "Perl::Critic::Policy::TryTiny::RequireBlockTermination" : "0",
             "Perl::Critic::Policy::TryTiny::RequireUse" : "0",
             "Perl::Critic::Policy::ValuesAndExpressions::PreventSQLInjection" : "0",
@@ -75,6 +77,7 @@
             "Perl::Critic::Policy::ValuesAndExpressions::ProhibitSingleArgArraySlice" : "0",
             "Perl::Critic::Policy::Variables::NameReuse" : "0",
             "Perl::Critic::Policy::Variables::ProhibitLoopOnHash" : "0",
+            "Perl::Critic::Policy::Variables::ProhibitNumericNamesWithLeadingZero" : "0",
             "Perl::Critic::Policy::Variables::ProhibitUnusedVarsStricter" : "0",
             "Perl::Critic::Policy::Variables::RequireHungarianNotation" : "0",
             "Perl::Critic::Policy::logicLAB::ModuleBlacklist" : "0",
@@ -115,7 +118,7 @@
       }
    },
    "version" : "0.06",
-   "x_serialization_backend" : "JSON::PP version 4.06",
+   "x_serialization_backend" : "JSON::PP version 4.07",
    "x_spdx_expression" : "MIT",
    "x_static_install" : "1"
 }
