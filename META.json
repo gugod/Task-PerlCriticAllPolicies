@@ -69,6 +69,7 @@
             "Perl::Critic::Policy::RegularExpressions::ProhibitEmptyAlternatives" : "0",
             "Perl::Critic::Policy::RegularExpressions::RequireDefault" : "0",
             "Perl::Critic::Policy::Subroutines::ProhibitAmbiguousFunctionCalls" : "0",
+            "Perl::Critic::Policy::Subroutines::ProhibitLvalueMethods" : "0",
             "Perl::Critic::Policy::TryTiny::RequireBlockTermination" : "0",
             "Perl::Critic::Policy::TryTiny::RequireUse" : "0",
             "Perl::Critic::Policy::ValuesAndExpressions::PreventSQLInjection" : "0",
@@ -96,6 +97,8 @@
             "Perl::Critic::Swift" : "0",
             "Perl::Critic::Tics" : "0",
             "Perl::Critic::TooMuchCode" : "0",
+            "Perl::Critic::Utils::DataConversion" : "0",
+            "Perl::Critic::Utils::POD::ParseInteriorSequence" : "0",
             "Perl::Critic::logicLAB" : "0"
          }
       }
@@ -103,7 +106,7 @@
    "provides" : {
       "Task::PerlCriticAllPolicies" : {
          "file" : "lib/Task/PerlCriticAllPolicies.pm",
-         "version" : "0.06"
+         "version" : "0.07"
       }
    },
    "release_status" : "stable",
@@ -117,7 +120,7 @@
          "web" : "https://github.com/gugod/Task-PerlCriticAllPolicies"
       }
    },
-   "version" : "0.06",
+   "version" : "0.07",
    "x_serialization_backend" : "JSON::PP version 4.07",
    "x_spdx_expression" : "MIT",
    "x_static_install" : "1"
